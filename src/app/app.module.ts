@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
+import { MaterialModule } from './Shared/material.module';
 
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import {MatCheckboxModule} from '@angular/material/checkbox';
+
 
 
 @NgModule({
@@ -16,9 +16,8 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatButtonModule,
-    MatIconModule,
-    MatCheckboxModule
+    FormsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
