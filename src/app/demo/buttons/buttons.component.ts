@@ -1,14 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-buttons',
   template: `
-    <p>
-      buttons works!
-    </p>
+      <button mat-flat-button>
+          <mat-icon>home</mat-icon>
+            Click Me
+      </button>
+      <mat-checkbox>Check me!</mat-checkbox>
   `,
-  styles: [
-  ]
+  styles: []
 })
 export class ButtonsComponent implements OnInit {
 
