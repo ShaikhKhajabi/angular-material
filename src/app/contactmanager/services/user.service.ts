@@ -23,7 +23,7 @@ export class UserService {
   }
 
   loadAll() {
-    const usersUrl = '';
+    const usersUrl = 'api/users/users.json';
 
     return this.http.get<User[]>(usersUrl).subscribe(
       (data) => {
