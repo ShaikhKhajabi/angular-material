@@ -12,7 +12,7 @@ export class DataService implements InMemoryDbService {
       User: [
         {
           id!: 6 ,
-          birthDate!: 6-6-5,
+          birthDate!:16-09-2007,
           name!: 'bella',
           avatar!: 'pic',
           bio!: ' bank manager',
@@ -23,7 +23,7 @@ export class DataService implements InMemoryDbService {
         {
           id!: 6 ,
           title!: 'managers',
-          date!: 6-6-5,
+          date!:16-09-2007,
       }
        
       ],
