@@ -23,7 +23,8 @@ export class UserService {
   }
 
   loadAll() {
-    const usersUrl = 'api/users/users.json';
+    const usersUrl = 'api/User';
+
 
     return this.http.get<User[]>(usersUrl).subscribe(
       (data) => {
@@ -31,8 +32,10 @@ export class UserService {
         this._users.next(Object.assign({}, this.dataStore).users);
       },
        error => {
-        console.log('failed to fetch');
+        console.log('failed');
       }
     );
   }
 }
+
+
